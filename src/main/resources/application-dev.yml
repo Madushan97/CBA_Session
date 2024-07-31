@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/session?serverTimezone=UTC&cachePrepStmts=true&useServerPrepStmts=true&rewriteBatchedStatements=true
+    username: root
+    password: madushan
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show_sql: false
+    hibernate:
+    generate-ddl: true
+
+logging:
+  level:
+    root: info
